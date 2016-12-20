@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  condition: boolean = true;
+  
+  usernames =[{
+    name: 'raja',
+    status: 'active'
+  },
+  {
+    name: 'david',
+    status: 'inactive'
+  },
+  {
+    name: 'vince',
+    status: 'active'
+  }]
 }

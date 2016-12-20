@@ -1,3 +1,14 @@
 <h1>
   {{title}}
 </h1>
+
+<div [hidden]="condition">
+  <p> This is a structural directive example</p>
+</div>
+  
+  
+<div *ngFor="let item of usernames">
+  <div *appMydirective="item">
+    {{item.name}}
+    </div>
+    </div>  
